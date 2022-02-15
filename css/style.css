@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 2, 24) !important;
+    font-family: sans-serif !important;
+}
+.row{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(10, 1, 32);
+    color: white;
+}
+.card{
+    border: none !important;
+    outline: none !important;
+}
+.d-md-flex div{
+    margin-right: 20px;
+}
+span{
+    color: rgb(100, 13, 122);
+}
+p{
+    font-size: 80%;
+    color: gray;
+}
+.d-flex div p{
+    font-size: 80% !important;
+}
+img{
+    height: 100% !important;
+}
+.card-img-overlay{
+    position: absolute;
+    background-color:  rgb(100, 13, 122);
+    opacity: 0.4;
+}
+.card-body{
+    box-sizing: border-box;
+    padding-left: 30px !important;
+    padding-right: 40px !important;
+    padding-top: 30px !important;
+}
+h5{
+    font-weight: 800 !important;
+    font-size: 130% !important;
+}
+.p{
+    font-size: 10px;
+}
+h6{
+    font-weight: 800 !important;
+    font-size: 80% !important;
+}
+.img-overlay{
+    background-color: blueviolet;
+}
+@media (max-width:768px){
+    .card{
+        max-width: 300px !important;
+        font-size: 90%;
+        text-align: center;
+    }
+    .card-body{
+        box-sizing: border-box;
+        padding-left: 20px !important;
+        padding-right: 30px !important;
+        padding-top: 20px !important;
+    }
+    body{
+        padding: 20px !important;
+    }
+}
